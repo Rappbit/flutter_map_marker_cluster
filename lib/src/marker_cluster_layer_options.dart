@@ -89,7 +89,7 @@ class PopupOptions {
 typedef ClusterWidgetBuilder = Widget Function(
     BuildContext context, List<Marker> markers);
 
-class MarkerClusterLayerOptions extends LayerOptions {
+class MarkerClusterLayerOptions {
   /// Cluster builder
   final ClusterWidgetBuilder builder;
 
